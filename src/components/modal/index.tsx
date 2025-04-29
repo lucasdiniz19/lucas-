@@ -11,7 +11,7 @@ export function ModalPassword({ password, handleClose }: ModalPasswordProps) {
     await clipboard.setStringAsync(password)
     alert("senha salva")
     handleClose();
-
+   
     }
     return (
         <View style={styles.container}>
